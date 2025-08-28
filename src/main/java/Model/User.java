@@ -21,7 +21,7 @@ public class User implements Serializable {
     // Constructor with all fields
     public User(int id, String email, String userName, String fullName, String passWord, String avatar, int roleid, String phone, Date createdDate) {
         this.id = id;
-        this.email = email;
+    	this.email = email;
         this.userName = userName;
         this.fullName = fullName;
         this.passWord = passWord;
@@ -35,7 +35,7 @@ public class User implements Serializable {
     public int getId() {
         return id;
     }
-
+    
     public void setId(int id) {
         this.id = id;
     }
